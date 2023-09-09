@@ -19,28 +19,6 @@
 *.avi
 *.data
 *.json
-*.cfg
-!setup.cfg
-!cfg/yolov3*.cfg
-
-storage.googleapis.com
-runs/*
-data/*
-data/images/*
-!data/*.yaml
-!data/hyps
-!data/scripts
-!data/images
-!data/images/zidane.jpg
-!data/images/bus.jpg
-!data/*.sh
-
-results*.csv
-
-# Datasets -------------------------------------------------------------------------------------------------------------
-coco/
-coco128/
-VOC/
 
 # MATLAB GitIgnore -----------------------------------------------------------------------------------------------------
 *.m~
@@ -48,15 +26,6 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
-*.pb
-*.onnx
-*.engine
-*.mlmodel
-*.torchscript
-*.tflite
-*.h5
 *_saved_model/
 *_web_model/
 *_openvino_model/
